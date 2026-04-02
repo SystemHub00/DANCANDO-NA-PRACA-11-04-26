@@ -1133,10 +1133,10 @@ TEMPLATE_WIZARD = r'''
                                 <label class="review-check" for="confirma_dados">
                                     <input type="checkbox" id="confirma_dados" name="confirma_dados" value="sim" {% if form_data.get('confirma_dados') %}checked{% endif %}>
                                     <span>
-                                        Confirmo que resido na Ilha do Governador ou região e tenho interesse em participar do evento.<br>
-                                        Todas as informações fornecidas são verdadeiras e estou de acordo com os termos de participação. <br>
-                                        Autorizo o uso dos meus dados para fins de inscrição e contato relacionado ao curso.<br>
-                                        Também autorizo o uso da minha imagem para divulgação nos canais de comunicação e redes sociais do projeto e da Prefeitura do Rio de Janeiro.
+                                        - Confirmo que resido na Realengo ou regiões próximas e tenho interesse em participar do evento.<br>
+                                        - Todas as informações fornecidas são verdadeiras e estou de acordo com os termos de participação. <br>
+                                        - Autorizo o uso dos meus dados para fins de inscrição e contato relacionado ao curso.<br>
+                                        - Também autorizo o uso da minha imagem para divulgação nos canais de comunicação e redes sociais do projeto e da Prefeitura do Rio de Janeiro.
                                     </span>
                                 </label>
                                 <div class="review-info-text" style="margin-top:10px;">
