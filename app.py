@@ -29,7 +29,7 @@ VALID_DDDS = {
 COURSE_OPTIONS = [
     {
         "id": "1",
-        "local": "ILHA DO GOVERNADOR",
+        "local": "REALENGO",
         "curso": "SAMBA NO PÉ",
         "turma": "PARQUE DE REALENGO - REALENGO",
         "dias_aula": "Sábado",
@@ -2256,7 +2256,7 @@ def confirmacao():
     if not protocolo:
         return redirect(url_for("home"))
 
-    home_url = "https://dancando-na-praca-horfeuvaleiro.onrender.com"
+    home_url = "https://dancando-na-praca-11-04-26.onrender.com"
 
     return render_template_string(
         TEMPLATE_CONFIRMACAO,
